@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        <div class="balance-box">
+            <p id="your-balance">Your Balance</p>
+            <p id="balance">$00.00</p>
+            <div class="income-expense-box">
+                <div id="income-box">
+                     <p id="income">Income</p>
+                     <p id="income-balance">$00.00</p>
+                </div>
+                <div id="expense-box">
+                     <p id="expense">Expense</p>
+                     <p id="expense-balance">$00.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="transaction-section">
+            <div class="transactiona-box">
+                <h3>Transactions</h3>
+                <ul id="transactiona-list"></ul>
+                <!-- <div class="list">
+                    <p id="listText">salary</p>
+                    <div class="amount-icon">
+                        <p id="productAmount">$2200.00</p> -->
+                        <!-- <div class="icon"><i class="fa-solid fa-xmark" id="icon"></i></div> -->
+                    
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        
+        <div class="add-box">
+            <h3>Add Transaction</h3>
+            <p id="description">Description</p>
+            <input type="text" placeholder="Enter Description... " required id="input-1">
+            <p id="amount">Amount</p>
+            <input  type="text" placeholder="Enter amount... " required id="input-2">
+            <p id="plus-nagitive">Use negative <span id="negative">(-)</span> for expenses</p>
+            <button id="add-transaction">Add Transaction</button>
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
